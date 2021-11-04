@@ -17,26 +17,24 @@ using namespace std;
 #define rep(i,a,b)                      for(int i=a;i<b;i++)
 #define fastio()ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 #define aff(v)                          for(auto e:v) cout<<e<<" "; cout<<endl;
+string vowel="aeouyi";
 bool isvowel(char v) {
-    return (0x208222>>(v&0x1f))&1;
+    int i=0;
+    for (auto e:vowel) if (e==v) i++;
+    if (i) return true;
+    return false;
 }
 
 void solve(){
     string s;cin>>s;
+    string replacement="";
     rep(i,0,s.size()){
         
-        if (isvowel(s[i])) s.replace(i,1,"#");
+        if (isvowel(tolower(s[i]))) continue;
+        replacement+=".";
+        replacement+=tolower(s[i]);
     }
-    s="."+s;
-    rep(i,1,s.size()){
-        if (s[i]>64){
-            s=s.substr(0,i-1)+"."+s.substr(i,s.size()-i);
-        }
-        // s=s.substr(0,i-1)+"."+s.substr(i,s.size()-i);
-        
-    }
-    s.erase(remove(s.begin(), s.end(), '#'), s.end());
-    cout<<s<<endl;
+    cout<<replacement<<endl;
 }
 
 int32_t main(){
