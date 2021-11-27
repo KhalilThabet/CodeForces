@@ -25,4 +25,3 @@ Problems | Level | Languages  | Discussion
 [B. Pheonix and Puzzle]() | 1000 | `c++` | [BLOG-Pheonix and Puzzle](https://codeforces.com/blog/entry/90236)
 [B. Reverse Sort ]() | 1000 | `c++` | [BLOG-Reverse Sort](https://codeforces.com/blog/entry/96866)
 [B. Special Permutation ]() | 900 | `c++` | [BLOG-Special Permutation](https://codeforces.com/blog/entry/97164)
-
