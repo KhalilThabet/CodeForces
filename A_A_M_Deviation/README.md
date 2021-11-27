@@ -15,30 +15,28 @@ Help Jeevan find out the minimum value of d(a1,a2,a3) that can be obtained after
 
 ### Input
 
-The first line contains a single integer t (1≤t≤5000)  — the number of test cases.
+The first line contains a single **integer t (1≤t≤5000)**  — the number of test cases.
 
-The first and only line of each test case contains three integers a1, a2 and a3 (1≤a1,a2,a3≤108).
+The first and only line of each test case contains three **integers a1, a2 and a3 (1≤a1,a2,a3≤108)**.
 
 ### Output
 
-For each test case, output the minimum value of d(a1,a2,a3) that can be obtained after applying the operation any number of times.
+For each test case, **output the minimum value of d(a1,a2,a3)** that can be obtained after applying the operation any number of times.
 
 ### Example
 
 ##### Input
 
->3
-> >                   3 4 5
-> >                   2 2 6
-> >                   1 6 5
+>                    3
+>                    3 4 5
+>                    2 2 6
+>                    1 6 5
 
 ##### Ouput
 
-```
-                    0
-                    1
-                    0
-```
+>                    0
+>                    1
+>                    0
 ### Code
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
