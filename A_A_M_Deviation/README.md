@@ -2,9 +2,11 @@
 
 ### Problem:
 
-A number a2 is said to be the arithmetic mean of two numbers a1 and a3, if the following condition holds: a1+a3=2⋅a2.
+A number a2 is said to be the **arithmetic mean** of two numbers a1 and a3, if the following condition holds: 
+>a1+a3=2⋅a2.
 
-We define an arithmetic mean deviation of three numbers a1, a2 and a3 as follows: d(a1,a2,a3)=|a1+a3−2⋅a2|.
+We define an **arithmetic mean deviation of three numbers** a1, a2 and a3 as follows: 
+>d(a1,a2,a3)=|a1+a3−2⋅a2|.
 
 Arithmetic means a lot to Jeevan. He has three numbers a1, a2 and a3 and he wants to minimize the arithmetic mean deviation d(a1,a2,a3). To do so, he can perform the following operation any number of times (possibly zero):
 
@@ -25,12 +27,11 @@ For each test case, output the minimum value of d(a1,a2,a3) that can be obtained
 
 ##### Input
 
-```
-                    3
-                    3 4 5
-                    2 2 6
-                    1 6 5
-```
+>3
+> >                   3 4 5
+> >                   2 2 6
+> >                   1 6 5
+
 ##### Ouput
 
 ```
