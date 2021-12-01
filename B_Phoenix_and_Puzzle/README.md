@@ -1,5 +1,4 @@
-# B. Make It Divisible By 25
-//Codeforces Global Round 14
+# B. Pheonix And Puzzle
 
 ### Problem:
 
